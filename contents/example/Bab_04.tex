@@ -1,0 +1,14 @@
+Salah satu tujuan pendidikan insinyur adalah kemampuan membuat lulusan untuk bisa secara luwes menggunakan sains natural (IPA) dan Matematika untuk membantu menyelesaikan permasalahan nyata di industri dan di masyarakat. 
+Untuk membantu menyelesaikan masalah secara sistematis, sangat disarankan mahasiswa mampu memodelkan permasalahan ke dalam persamaan matematika. Jika tidak dimungkinkan secara matematis, maka diperbolehkan pemodelan dengan cara yang lain misalnya secara heuristik, secara statistik, secara empiris, dan lain-lain.
+
+Sebagai gambaran tim mahasiswa, di akhir dokumen ini mahasiswa perlu mengusulkan perancangan mendetail. Sehingga pemodelan di sini sangat menentukan level akurasi dan kualitas desain yang diusulkan. Sebagai contoh jika mahasiswa akan membuat desain kendali maka di bagian pemodelan mahasiswa memodelkan \textit{plant} ke dalam \textit{state-space} atau fungsi alih (\textit{transfer function}) seperti yang ditunjukkan pada (\ref{eqn:Ch04_Transfer_Function_Motor_DC}) sebagai berikut.
+
+\begin{equation}
+    \label{eqn:Ch04_Transfer_Function_Motor_DC}
+    H(s) = \dfrac{K_t}{\left( sL + R \right) \left( sJ + b \right) + K_t K_i}
+\end{equation}
+
+Jika mahasiswa ingin mendesain sistem sensor, mahasiswa perlu memodelkan sifat-sifat fisika dari medium dan besaran yang akan diukur dan sebagainya, Jika ingin membuat sistem elektronis, misalnya lampu lalu lintas cerdas, mahasiswa perlu memodelkan arus pergerakan kendaraan di persimpangan jalan, dan lain-lain.
+
+Pada sub-bab perancangan detail nanti mahasiswa akan menganalisis lebih lanjut model plant tersebut ke dalam analisa kestabilan dengan Aljabar Linear, Routh-Hutwitz, Root-Locus, kurva Bode atau Nyquist dan lain-lain untuk bisa mengenal lebih mendalam tentang \textit{plant} sehingga bisa mendesain pengendali yang tepat, membuat algoritme pengendalian, menentukan \textit{hardware} atau \textit{software}, melakukan \textit{coding} atau pemrograman, dan menanamkannya pada \textit{microcontroller} atau komputer atau perangkat yang lain. Untuk mendesain lampu lalu lintas cerdas solusi macet, mahasiswa akan menggunakan model ini untuk menentukan \textit{timing} yang tepat dan paling optimal, dan lain sebagainya. 
+

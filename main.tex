@@ -1,0 +1,92 @@
+\documentclass{data/DTETI_Capstone_C251}
+
+% Penambahan package
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{subfigure}
+\usepackage{array}
+\usepackage{indentfirst}
+\usepackage{titlesec}
+\usepackage{lipsum}
+\usepackage[utf8]{inputenc}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{caption}
+\usepackage{longtable} 
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\bibliographystyle{plain} 
+\usepackage[numbers,sort&compress]{natbib}
+
+% Awal dokumen
+\begin{document}
+
+% Data capstone
+\input{data/Capstone_Data.tex}
+
+% Halaman judul -> catatan revisi dokumen
+\maketitle
+
+% Isi laporan
+%% BAB 01 : Pengantar 
+\chapter{\uppercase{Pengantar}}
+\label{chap:Pengantar}
+\input{contents/Bab_01.tex}
+
+%% BAB 02 : Dasar Teori Pendukung 
+\chapter{\uppercase{Dasar Teori Pendukung}}
+\label{chap:Dasar_Teori_Pendukung}
+\input{contents/Bab_02.tex}
+
+%% BAB 03 : Analisis Studi Pustaka Kunci 
+\chapter{\uppercase{Analisis Studi Pustaka Kunci}}
+\label{chap:Analisis_Studi_Pustaka_Kunci}
+\input{contents/Bab_03.tex}
+
+% BAB 04 : Pemodelan Permasalahan 
+\chapter{\uppercase{Pemodelan Permasalahan}}
+\label{chap:Pemodelan_Permasalahan}
+\input{contents/Bab_04.tex}
+
+%% BAB 05 : Pemilihan dan Pengembangan Metode 
+\chapter{\uppercase{Pemilihan dan Pengembangan Metode}}
+\label{chap:Pemilihan_dan_Pengembangan_Metode}
+\input{contents/Bab_05.tex}
+
+%% BAB 06 : Luaran dan Spesifikasi yang Diusulkan 
+\chapter{\uppercase{Luaran dan Spesifikasi yang Diusulkan}}
+\label{chap:Luaran_dan_Spesifikasi_yang_Diusulkan}
+\input{contents/Bab_06.tex}
+
+%% BAB 07 : Batasan Permasalahan 
+\chapter{\uppercase{Batasan Permasalahan}}
+\label{chap:Batasan_Permasalahan}
+\input{contents/Bab_07.tex}
+
+%% BAB 08 : Perancangan Umum Sistem 
+\chapter{\uppercase{Perancangan Umum Sistem}}
+\label{chap:Perancangan_Umum_Sistem}
+\input{contents/Bab_08.tex}
+
+%% BAB 09 : Rencana Anggaran dan Jadwal Kegiatan
+\chapter{\uppercase{Rencana Anggaran dan Jadwal Kegiatan}}
+\label{chap:RAB_JadwalKegiatan}
+\input{contents/Bab_09.tex}
+
+%% BAB 10 : Simulasi Pendahuluan 
+\chapter{\uppercase{Simulasi Pendahuluan}}
+\label{chap:Simulasi_Pendahuluan}
+\input{contents/Bab_10.tex}
+
+%% BAB 11 : Kesimpulan 
+\chapter{\uppercase{Kesimpulan}}
+\label{chap:Kesimpulan}
+\input{contents/Bab_11.tex}
+
+%% Daftar Pustaka
+\begin{thebibliography}{}
+    \input{contents/Referensi.tex}
+\end{thebibliography}
+
+% Akhir dokumen
+\end{document}

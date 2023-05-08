@@ -1,0 +1,286 @@
+Di dalam bagian pengantar ini perlu dijelaskan secara ringkas mengenai topik yang akan dikerjakan, rangkuman motivasi dari pemilihan topik ini, serta ringkasan alur dan isi dari dokumen C-251 ini. Pengantar yang baik harus ditulis dengan ringkas, padat dan jelas. Sangat direkomendasikan bagian pengantar ditulis seringkas mungkin tidak melebihi 1200 kata (2 halaman).
+
+\textcolor{black}{Topik yang dipilih dalam \textit{capstone project} ini haruslah memenuhi \underline{minimal salah satu} dari kriteria \textit{complex engineering problem} sebagai berikut:
+\begin{itemize}
+    \item melibatkan masalah teknis yang luas atau saling bertentangan,
+    \item tidak memiliki solusi yang gamblang,
+    \item solusi masalah tidak dicakup oleh standar dan kode program yang ada saat ini,
+    \item melibatkan berbagai kelompok atau pemangku kepentingan,
+    \item mencakup banyak bagian komponen atau sub-permasalahan,
+    \item melibatkan berbagai disiplin ilmu, atau
+    \item memiliki konsekuensi yang penting dalam berbagai konteks.
+\end{itemize}
+Penjelasan mengenai bagaimana topik yang dipilih memenuhi satu atau beberapa kriteria di atas harus diberikan pada bagian pengantar ini.
+}
+
+\section{Ujian Dokumen C-251}
+\label{sec:Ujian_Dokumen_C-251}
+    
+    Perlu diketahui bahwa dokumen C-251 akan diuji dalam sidang yang beranggotakan komite \textit{capstone} yang akan menentukan nilai akhir mata kuliah \textit{Capstone} 1. Dokumen C-251 merupakan penutup \textit{Capstone} 1 yang merupakan suatu karya tulis yang informatif yang ditujukan untuk meyakinkan pembaca dan komite \textit{capstone} bahwa apa yang akan dilakukan dalam tugas akhir saudara adalah layak atau berharga. Selain itu, \textit{Capstone} 1 berusaha memberikan jaminan bahwa apa yang akan dilakukan bisa diimplementasikan dalam waktu yang masuk akal (biasanya tiga sampai enam bulan).
+
+\section{Informasi Singkat Mengenai \textit{Template} Dokumen C-251}
+\label{sec:Informasi_Singkat_Mengenai_Template_Dokumen_C-251}
+
+    \subsection{Susunan \textit{Directory}}
+    \label{subsec:Susunan_Directory}
+    
+        \textit{Template} dokumen C-251 ini tersusun oleh beberapa \textit{directory} yang digunakan untuk memudahkan organisasi \textit{file-file} yang menjadi penyusun dokumen C-251 ini. Pada tingkat ke-1, terdapat 2 (dua) \textit{directory}/\textit{folder} seperti yang ditunjukkan oleh Tabel \ref{tab:Ch01_Directory_Level_1}.
+        
+        \begin{longtable}{|C{0.7cm}|C{1.8cm}|L{12.5cm}|}
+            \caption{Susunan \textit{Directory} Tingkat Ke-1}
+            \label{tab:Ch01_Directory_Level_1}
+            \vspace{-0.75em}\\
+            \hline
+                \textbf{No}                                     &
+                \textbf{\textit{Directory}}                     &
+                \multicolumn{1}{C{12.5cm}|}{\textbf{Keterangan}} \\
+            \hline
+                1   &
+                fig &
+                Berisi \textit{file-file} gambar yang akan digunakan di dalam dokumen C-251. \\
+            \hline
+                2       &
+                thesis  &
+                Berisi \textit{directory-directory} yang di dalamnya terdapat \textit{file-file} penyusun dokumen C-251.\\
+            \hline
+        \end{longtable}
+        
+        \noindent Kemudian di dalam \textit{directory} "thesis", terdapat beberapa \textit{directory} penyusun seperti yang ditunjukkan oleh Tabel \ref{tab:Ch01_Directory_Level_2_fig}.
+        
+        \begin{longtable}{|C{0.7cm}|C{2.8cm}|L{11.5cm}|}
+            \caption{Susunan \textit{Directory} Tingkat Ke-2 di dalam \textit{Directory} "thesis"}
+            \label{tab:Ch01_Directory_Level_2_fig}
+            \vspace{-0.75em}\\
+            \hline
+                \textbf{No}                                         &
+                \textbf{\textit{Directory}}                         &
+                \multicolumn{1}{C{11.5cm}|}{\textbf{Keterangan}}    \\
+            \hline
+                1   &
+                Catatan\_Revisi &
+                Berisi \textit{file-file} yang digunakan untuk mendeskripsikan catatan-catatan dari revisi yang telah dilakukan. \\
+            \hline
+                2       &
+                Isi\_Laporan  &
+                Berisi \textit{file-file} yang digunakan untuk menuliskan isi dari laporan/dokumen C-251 ini.\\
+            \hline
+                3       &
+                Main  &
+                Berisi \textit{file} untuk menuliskan intisari dokumen ("Intisari.tex"), data-data mengenai dokumen C-251 ("Data\_Capstone.tex"), dan daftar pustaka ("Referensi.tex"). Selain itu berisi juga \textit{file} yang mengatur formatting dari dokumen C-251 ini ("DTETI\_CP\_C251.cls") beserta file utama yang menggabungkan semua komponen penyusun dokumen C-251 ini ("main.tex").\\
+            \hline
+        \end{longtable}
+    
+    \subsection{Pengisian Data Mengenai Dokumen C-251}
+    \label{subsec:Pengisian_Data_MEngenai_Dokumen_C-251}
+    
+        Hal pertama yang harus Anda lakukan ketika menggunakan \textit{template} \LaTeX ini adalah mengisi data-data dasar mengenai dokumen C-251 ini. Pengisian data-data tersebut dilakukan pada \textit{file} "Data\_Capstone.tex" yang berada di dalam \textit{directory} "thesis/Main/". Data-data yang perlu Anda isikan ditunjukkan oleh Tabel \ref{tab:Ch01_Data_Dokumen_C-251}.
+        
+        \begin{longtable}{|C{0.7cm}|C{1.8cm}|L{12.5cm}|}
+            \caption{Data-Data Dokumen C-251}
+            \label{tab:Ch01_Data_Dokumen_C-251}
+            \vspace{-0.75em}\\
+            \hline
+                \textbf{No}                                         &
+                \textbf{Data}                                       &
+                \multicolumn{1}{C{12.5cm}|}{\textbf{Keterangan}}    \\
+            \hline
+                1   &
+                judul &
+                Usulan judul \textit{capstone} dalam Bahasa Indonesia. \\
+            \hline
+                2   &
+                title &
+                Usulan judul \textit{capstone} dalam Bahasa Inggris. \\
+            \hline
+                3   &
+                NoDok &
+                Kode tim/kelompok \textit{capstone}. \\
+            \hline
+                4   &
+                NoRev &
+                Nomor revisi dokumen. \\
+            \hline
+                5   &
+                MHSA &
+                Nama lengkap, NIM, program studi dan alamat \textit{email} ketua kelompok. \\
+            \hline
+                6   &
+                MHSB &
+                Nama lengkap, NIM, program studi dan alamat \textit{email} anggota 1. \\
+            \hline
+                7   &
+                MHSC &
+                Nama lengkap, NIM, program studi dan alamat \textit{email} anggota 2. \\
+            \hline
+                8   &
+                MHSD &
+                Nama lengkap, NIM, program studi dan alamat \textit{email} anggota 3. \\
+            \hline
+                9   &
+                MHSE &
+                Nama lengkap, NIM, program studi dan alamat \textit{email} anggota 4. \\
+            \hline
+                10   &
+                DPA &
+                Nama lengkap dan NIP/NIU dari Dosen Pembimbing. \\
+            \hline
+                11   &
+                Tempat &
+                Tempat pelaksanaan \textit{capstone}. \\
+            \hline
+        \end{longtable}
+        
+        \noindent Pastikan Anda mengisi data-data tersebut dengan benar sehingga informasi yang tertampil pada halaman judul dan halaman pengesahan merupakan informasi yang benar.
+    
+    \subsection{Melampirkan Bukti Bebas Plagiasi}
+    \label{subsec:Melampirkan_Bukti_Bebas_Plagiasi}
+    
+        Ketika mengumpulkan dokumen C-251 ini, Anda \uline{wajib} untuk melampirkan bukti bahwa dokumen C-251 yang Anda susun telah bebas dari plagiasi. Yang perlu Anda lakukan adalah melampirkan halaman utama dari \textit{similarity report} yang telah Anda terima seperti yang terlihat pada contoh. Berikut ini adalah langkah-langkah yang perlu Anda lakukan dalam proses pelampiran bukti bebas plagiasi.
+        
+        \begin{enumerate}
+            \item Anda mengirimkan dokumen C-251 Anda yang telah siap untuk dilakukan pengecekan plagiasi. Mekanisme detail mengenai proses pengecekan plagiasi ini akan diumumkan di kemudian hari.
+            \item Anda akan mendapatkan \textit{file} \textit{similarity report} dalam bentuk PDF yang menunjukkan seberapa besar kemiripan antara konten dokumen C-251 yang Anda susun dengan sumber-sumber yang ada di internet.
+            \item Apabila hasil pengecekan plagiasi tersebut telah memenuhi kriteria yang diizinkan, maka Anda perlu mengambil halaman utama dari file \textit{similarity report} tersebut yang menunjukkan \textit{Originality Report} dari dokumen C-251 Anda. Proses pengambilan halaman ini dapat Anda lakukan melalui laman-laman \textit{online}, misalnya adalah laman "https://smallpdf.com/split-pdf".
+            \item Gantilah nama \textit{file} tersebut menjadi "Bukti\_Bebas\_Plagiasi.pdf", kemudian letakkan \textit{file} tersebut di dalam \textit{directory} "fig". Mohon diperhatikan penamaan \textit{file} bukti bebas plagiasi tersebut. Apabila penamaan \textit{file} tersebut tidak sesuai dengan ketentuan, maka akan muncul pesan \textit{error} ketika Anda melakukan kompilasi (meng-\textit{compile}).
+        \end{enumerate}
+        
+    \subsection{Menuliskan Catatan Revisi Dokumen}
+    \label{subsec:Menuliskan_Catatan_Revisi_Dokumen}
+    
+    Catatan revisi dokumen di dalam dokumen C-251 ini ditujukan untuk mencatat revisi-revisi yang dilakukan selama proses penulisan dokumen C-251 ini. Proses revisi dokumen tersebut muncul biasanya dilakukan ketika adanya permintaan perbaikan dokumen dari dosen pembimbing, maupun dari dosen penguji ketika ujian dokumen C-251. Poin-poin revisi yang dilakukan tersebut wajib didokumentasikan di dalam bab catatan revisi dokumen ini.
+    
+    Dalam \textit{template} dokumen C-251 ini, penulisan catatan revisi dokumen dilakukan dengan cara mengisi \textit{file-file} di dalam \textit{directory} "Catatan\_Revisi". Di dalam \textit{directory} tersebut telah disediakan total 10 (sepuluh) \textit{file} yang digunakan untuk menuliskan catatan revisi tersebut. Nama dari \textit{file-file} tersebut dimulai dari "Revisi\_00.tex" hingga "Revisi\_09.tex". Masing-masing \textit{file} tersebut diperuntukkan untuk pencatatan 1 (satu) proses revisi dokumen. 
+    
+    \textit{File} "Revisi\_00.tex" wajib diisi untuk memberikan keterangan singkat mengenai versi awal dari dokumen C-251 ini. Untuk revisi ke-1 dan selanjutnya, catatan revisi tersebut dapat dituliskan pada \textit{file} "Revisi\_01.tex", "Revisi\_02.tex", dst. Perlu diperhatikan bahwa banyaknya catatan revisi yang akan ditampilkan ditentukan oleh nilai "NoRev" yang diisikan pada \textit{file} "Data\_Capstone.tex". Apabila nilai "NoRev" adalah "1" atau "01", maka hanya konten di dalam \textit{file} "Revisi\_00.tex" dan "Revisi\_01.tex" saja yang akan ditampilkan. Sedangkan apabila nilai "NoRev" adalah "3" atau "03", maka hanya konten di dalam \textit{file} "Revisi\_00.tex", "Revisi\_01.tex", "Revisi\_02.tex" dan "Revisi\_03.tex" yang akan ditampilkan. Oleh karena itu, perlu dilakukan sinkronisasi antara nilai "NoRev" dengan catatan revisi yang dituliskan di dalam \textit{file} "Revisi\_xx.tex".
+    
+\section{Contoh Penulisan Dokumen Menggunakan \LaTeX}
+\label{sec:Contoh_Penulisan_Dokumen_Menggunakan_LaTeX}
+
+    \subsection{Persamaan Matematis}
+    \label{subsec:pers_mat}
+    
+        Persamaan dapat ditulis dengan berbagai cara. Untuk persamaan yang sederhana dapat menggunakan penulisan berikut.
+        
+        \begin{equation}
+            \label{eqn:short}
+            a+b=\gamma
+        \end{equation}
+        
+        \noindent Sedangkan persamaan yang cukup panjang dapat ditulis dalam beberapa baris seperti berikut.
+        \begin{equation}
+            \label{eqn:long1}
+            \begin{split}
+                1+2+3+4+8x+7 & =1+2+3+4+4x+35 \\
+                & \Rightarrow x=7
+            \end{split}
+        \end{equation}
+        
+        \noindent atau sebagai berikut.
+        \begin{align}
+            \label{eqn:long2}
+            (x+y)^3&=(x+y)(x+y)^2\\
+                   &=(x+y)(x^2+2xy+y^2)\\
+                   &=x^3+3x^2y+3xy^3+x^3.
+        \end{align}
+        
+        Jika Anda ingin hanya menggunakan satu nomor persamaan pada persamaan yang \textit{multi-line}, maka dapat dilakukan dengan
+        \begin{align}
+            \label{eqn:long3}
+            \begin{split}
+                 (x+y)^3&=(x+y)(x+y)^2\\
+                       &=(x+y)(x^2+2xy+y^2)\\
+                       &=x^3+3x^2y+3xy^3+x^3.
+            \end{split}
+        \end{align}
+        
+        \noindent Ketika persamaan diacu pada teks, maka dapat dilakukan dengan cara  kata "Persamaan~(\ref{eqn:short})".
+    
+    \subsection{Gambar dan Tabel}
+    \label{subsec:gmbr_tab}
+        
+        Posisi gambar atau table harus berada pada bagian atas atau bawah pada tiap halaman. Judul gambar berada di bawah gambar, sedangkan judul tabel berada di atas table. Gunakan kata "Gambar~\ref{fig:example1}" atau "Tabel~\ref{tab:example1}" untuk mengacu gambar atau tabel dalam naskah.
+        
+        %%=============================
+        \begin{figure}[!ht]
+            \centering
+            \includegraphics{Fig1.png}
+            \caption{Contoh Gambar}
+            \label{fig:example1}
+        \end{figure}
+    
+        %%========================
+        \begin{longtable}{|c|c|c|c|c|}
+            \caption{Contoh Tabel}
+            \label{tab:example1}
+            \vspace{-0.75em}\\
+            \hline
+            \textbf{No} & \textbf{Spesifikasi}  & \textbf{Satuan} & \textbf{Standar} & \textbf{Keterangan} \\ \hline
+            1           & Tegangan Masukan      & Volt (V)        & 95 sampai 220 V  & Lihat Penjelasan A  \\ \hline
+            2           & Tegangan Keluaran     & Volt (V)        & 20 V $\pm$ 0,2\% & Lihat Penjelasan B  \\ \hline
+            3           & Interferensi Magnetis & Watt (W)        & Maksimal 0,1 W   & Lihat Penjelasan C  \\ \hline
+            4           & SNR                   & Decibel (dB)    & Minimum 80 dB    & Lihat Penjelasan D  \\ \hline
+            5           & dan seterusnya        &                 &                  &                     \\ \hline
+        \end{longtable}
+        
+        Dalam penulisan tabel, sangat disarankan untuk menggunakan \textit{environment} "longtable" seperti Tabel \ref{tab:example1}. Penggunaan "longtable" ini bertujuan agar tabel dapat terpisahkan ke dalam beberapa halaman yang berbeda apabila memang ukuran tabel tersebut terlalu panjang. Hal ini tidak dapat diakomodasi oleh \textit{environment} "table" yang standar.
+        
+        Sama seperti ketika menggunakan MS Word, posisi teks di dalam tabel dapat diatur sesuai dengan keinginan. Hal ini dilakukan dengan memilih opsi "l", "c" atau "r" yang diletakkan setelah perintah untuk memulai \textit{environtment} "longtable". Contoh penggunana masing-masing opsi \textit{alignment} ini ditunjukkan pada Tabel \ref{tab:alignment_01}.
+        
+        \begin{longtable}{|c|l|c|r|}
+            \caption{Contoh Penggunaan \textit{Alignment} dengan Lebar Kolom yang Otomatis}
+            \label{tab:alignment_01}
+            \vspace{-0.75em}\\
+            \hline
+                \textbf{Opsi} & l & c & r    \\
+            \hline
+                \textbf{Posisi Horizontal} & Kiri & Tengah & Kanan \\
+            \hline
+                \textbf{Posisi Vertikal} & Tengah & Tengah & Tengah \\
+            \hline
+        \end{longtable}
+        
+        Salah satu fitur dari ketiga opsi \textit{alignment} tersebut adalah ukuran lebar kolom tabel akan secara otomatis menyesuaikan dengan panjang teks. Akan tetapi, terkadang fitur ini menjadi kurang baik karena lebar tabel secara keseluruhan dapat melewati margin yang telah ditentukan. Oleh karena itu, dalam \textit{template} \LaTeX ini disediakan pula opsi \textit{alignment} lainnya seperti yang ditunjukkan oleh Tabel \ref{tab:alignment_02}.
+        
+        \begin{longtable}{|C{3.2cm}|L{2cm}|C{2cm}|R{2cm}|}
+            \caption{Contoh Penggunaan \textit{Alignment} dengan Lebar Kolom Tertentu}
+            \label{tab:alignment_02}
+            \vspace{-0.75em}\\
+            \hline
+                \textbf{Opsi} & L & C & R    \\
+            \hline
+                \textbf{Posisi Horizontal} & Kiri & Tengah & Kanan \\
+            \hline
+                \textbf{Posisi Vertikal} & Tengah & Tengah & Tengah \\
+            \hline
+        \end{longtable}
+        
+        \noindent Dengan menggunakan opsi-opsi tersebut, maka dapat dimungkinkan untuk membuat sebuah tabel dengan ukuran lebar kolom yang seragam.
+
+    \subsection{Sitasi}
+    \label{subsec:sitasi}
+    
+        Gunakanlah sitasi berupa angka dengan menggunakan \textit{brackets} seperti berikut~\cite{edwards_sliding_1998}. Tanda baca seperti titik (\textit{full stop}) mengikuti \textit{brackets} \cite{b1}. Gunakalanlah sitasi dengan mengacu pada nomornya saja seperti pada  \cite{b2}---jangan gunakan ``Ref. \cite{b3}'' atau ``referensi \cite{b3}'' kecuali pada awal kalimat: ``Referensi \cite{b3} menggunakan $\ldots$''.
+        
+        Jika melakukan sitasi pada lebih dari satu sumber pada saat yang bersamaan, maka gunakanlah \cite{edwards_sliding_1998, b1} atau \cite{edwards_sliding_1998, b1, b2, b3}.
+    
+       % Tuliskan semua nama \textit{author} kecuali jika jumlah authornya lebih dari enam \textit{author} atau lebih di mana anda bisa menggunakan: . 
+       
+       
+    \subsection{Algoritma}
+    \label{subsec:algo}
+    
+    Anda dapat menulis algortime seperti pada contoh "Algoritma~\ref{algo:algo1}". 
+    \begin{algorithm}
+    	\caption{PPO} 
+    	\label{algo:algo1}
+    	\begin{algorithmic}[1]
+    		\For {$iteration=1,2,\ldots$}
+    			\For {$actor=1,2,\ldots,N$}
+    				\State Run policy $\pi_{\theta_{old}}$ in environment for $T$ time steps
+    				\State Compute advantage estimates $\hat{A}_{1},\ldots,\hat{A}_{T}$
+    			\EndFor
+    			\State Optimize surrogate $L$ wrt. $\theta$, with $K$ epochs and minibatch size $M\leq NT$
+    			\State $\theta_{old}\leftarrow\theta$
+    		\EndFor
+    	\end{algorithmic} 
+    \end{algorithm}
