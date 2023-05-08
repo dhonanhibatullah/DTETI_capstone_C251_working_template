@@ -7,7 +7,7 @@ Untuk menggunakan *template* ini, teman-teman perlu menginstal versi terbaru dar
 
 
 ## 2. Cara Menggunakan
-Buka aplikasi TeXworks Editor yang seharusnya kini dapat dicari pada *start menu* teman-teman. Klik File -> Open lalu cari dan pilih **example_main.tex** atau **main.tex** untuk uji coba. Tekan simbol '>' di pojok kanan atas aplikasi untuk mulai meng-*compile*. Apabila berhasil, *file* .pdf yang ter-*generate* akan ditampilkan oleh *window* baru.
+Buka aplikasi TeXworks Editor yang seharusnya kini dapat dicari pada *start menu* teman-teman. Klik File -> Open lalu cari dan pilih **example_main.tex** atau **main.tex** untuk uji coba. Tekan simbol **'>'** di pojok kiri atas aplikasi untuk mulai meng-*compile*. Apabila berhasil, *file* .pdf yang ter-*generate* akan ditampilkan pada *window* baru.
 
 Terdapat beberapa *folder* dan *file* pada *repository* ini yang dapat teman-teman edit sesuai dengan keperluan kelompok masing-masing.
 | File/Folder                   | Kegunaan                                                                                                                                  |
